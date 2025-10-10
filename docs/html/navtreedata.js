@@ -43,7 +43,7 @@ var NAVTREE =
     [ "Note on memory aliases", "index.html#autotoc_md14", null ],
     [ "API Reference Manual", "index.html#autotoc_md15", null ],
     [ "More information", "index.html#autotoc_md16", null ],
-    [ "BSP Overview", "md_source_bsps_mt_bsp_user_guide.html", null ],
+    [ "BSP Overview", "md_ci_src_docs_mt_bsp_user_guide.html", null ],
     [ "BSP Settings", "md_bsp_settings.html", null ],
     [ "BSP API Reference", "modules.html", "modules" ]
   ] ]

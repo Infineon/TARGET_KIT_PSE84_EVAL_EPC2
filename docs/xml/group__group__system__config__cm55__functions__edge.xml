@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="148" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="654" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="148" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="148" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="655" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="148" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

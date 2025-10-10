@@ -41,12 +41,12 @@
 <row>
 <entry thead="no" align='center'><para>CLK_HF1   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH0   </para>
-</entry><entry thead="no" align='center'><para>399 MHz    </para>
+</entry><entry thead="no" align='center'><para>400 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF2   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH2   </para>
-</entry><entry thead="no" align='center'><para>299 MHz    </para>
+</entry><entry thead="no" align='center'><para>300 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF3   </para>
@@ -56,7 +56,7 @@
 <row>
 <entry thead="no" align='center'><para>CLK_HF4   </para>
 </entry><entry thead="no" align='center'><para>CLK_PATH0   </para>
-</entry><entry thead="no" align='center'><para>399 MHz    </para>
+</entry><entry thead="no" align='center'><para>400 MHz    </para>
 </entry></row>
 <row>
 <entry thead="no" align='center'><para>CLK_HF5   </para>

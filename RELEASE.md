@@ -15,6 +15,8 @@ The KIT_PSE84_EVAL_EPC2 library includes the following:
 * API documentation
 
 ### What Changed?
+#### v1.1.0
+* Removing out of date defines and improving error handling
 #### v1.0.0
 * BSP version update to 1.0.0
 * Removed Postbuild command from bsp.mk
@@ -54,8 +56,8 @@ The KIT_PSE84_EVAL_EPC2 library includes the following:
 * Updated bsp dependencies: recipe-make-cat1d v1.0.3, core-lib v1.4.3, mtb-pdl-cat1 v3.11.102
 * Renamed DEVICE_MODE to VCORE_ATTRS in bsp.mk file
 #### v0.7.0
-* Removed RAM linkers 
-* KIT_PSOCE84_EVK: CYW55513IUBG A1 silicon support in the BSP 
+* Removed RAM linkers
+* KIT_PSOCE84_EVK: CYW55513IUBG A1 silicon support in the BSP
 * KIT_PSOCE84_EVK: BSP dependencies update
 #### v0.6.0
 * ECO (17.2032 MHz) as source for DPLL LP (DPLL_LP0, DPLL_LP1) and IHO (50 MHz) for DPLL_HP
@@ -85,18 +87,20 @@ This version of the KIT_PSE84_EVAL_EPC2 BSP was validated for compatibility with
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.4.0   |
-| GCC Compiler                              | 12.2.1  |
-| ARM Compiler                              | 6.16    |
+| ModusToolbox™ Software Environment        | 3.6.0   |
+| GCC Compiler                              | 14.2.1  |
+| ARM Compiler&reg;                         | 6.16    |
+| IAR Compiler                              | 9.50.1  |
+| LLVM ARM Compiler                         | 19.1.1  |
 
-Minimum required ModusToolbox™ Software Environment: v3.4.0
+Minimum required ModusToolbox™ Software Environment: v3.6.0
 
 ### More information
 * [KIT_PSE84_EVAL_EPC2 BSP API Reference Manual][api]
 * [KIT_PSE84_EVAL_EPC2 Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/placeholder/)
-* [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
+* [Infineon Technologies AG](https://www.infineon.com)
 * [Infineon GitHub](https://github.com/infineon)
-* [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
+* [ModusToolbox™](https://www.infineon.com/modustoolbox)
 
 [api]: https://infineon.github.io/TARGET_KIT_PSE84_EVAL_EPC2/html/modules.html
 

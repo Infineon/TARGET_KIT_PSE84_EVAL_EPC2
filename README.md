@@ -9,8 +9,8 @@ The PSOC™ Edge E84 Evaluation Kit (KIT\_PSE84\_EVAL) is based on the PSOC™ E
 To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ## Features
-This evaluation kit carries a PSOC™ E84 EPC2 MCU (PSE846GPS2DBZC4A) on a SODIMM based detachable SOM board connected to the base\-board. The MCU SOM also has 128 Mb QSPI flash, 1 Gb Octal flash, 128 Mb Octal RAM, PSOC™ 4000T as CAPSENSE™ co\-processor and on\-board AIROC™ Wi\-Fi \& Bluetooth® combo (CYW55513IUBG). 
-  
+This evaluation kit carries a PSOC™ E84 EPC2 MCU (PSE846GPS2DBZC4A) on a SODIMM based detachable SOM board connected to the base\-board. The MCU SOM also has 128 Mb QSPI flash, 1 Gb Octal flash, 128 Mb Octal RAM, PSOC™ 4000T as CAPSENSE™ co\-processor and on\-board AIROC™ Wi\-Fi \& Bluetooth® combo (CYW55513IUBG).
+
 The base\-board has M.2 interface connectors for interfacing external radio modules based on AIROC™ Wi\-Fi \& Bluetooth® combos and external memory interfaces. The base\-board features an on\-board programmer/debugger(KitProg3\), ETM/JTAG/SWD debug headers, custom display capacitive touch panel connector, R\-Pi compatible MIPI\-DSI and MIPI\-DSI custom display, Analog and PDM microphones, Headphone connector, Speaker, USB Host Type\-A and USB device Type\-C connectors, RJ45 Ethernet connector, M.2 (B\-key) memory interface and M.2 (E\-key) radio interface, Infineon’s Shield2Go interface, Mikroelektronika's mikroBUS compatible headers, 6\-Axis IMU sensor, 3\-axis Magnetometer, microSD cardholder, CAPSENSE™ buttons and slider, user LEDs and user buttons. The MCU power domain supports following operating voltages \- 2\.7 V, 3\.3 V, 4\.2 V and the peripheral power domain supports operating voltages \- 1\.8 V and 3\.3 V.
 
 ## BSP Configuration
@@ -28,10 +28,10 @@ Defines:
 |  Clock   |   Source  | Output Frequency |
 | :------: | :-------: | :--------------: |
 | CLK_HF0  | CLK_PATH0 |     200 MHz      |
-| CLK_HF1  | CLK_PATH0 |     399 MHz      |
-| CLK_HF2  | CLK_PATH2 |     299 MHz      |
+| CLK_HF1  | CLK_PATH0 |     400 MHz      |
+| CLK_HF2  | CLK_PATH2 |     300 MHz      |
 | CLK_HF3  | CLK_PATH0 |     200 MHz      |
-| CLK_HF4  | CLK_PATH0 |     399 MHz      |
+| CLK_HF4  | CLK_PATH0 |     400 MHz      |
 | CLK_HF5  | CLK_PATH0 |     200 MHz      |
 | CLK_HF6  | CLK_PATH0 |     200 MHz      |
 | CLK_HF7  | CLK_PATH1 |      49 MHz      |
@@ -52,7 +52,7 @@ Defines:
 See the [BSP Setttings][settings] for additional board specific configuration settings.
 
 ## Default linker scripts
-The default linker scripts define a lot of different regions so this document is intended to explain their 
+The default linker scripts define a lot of different regions so this document is intended to explain their
 purposes. The analysis will be done per memory area.
 
 ### ITCM
@@ -101,7 +101,7 @@ These files are:
 * `cymem_gnu_CM33_S_0.ld`, `cymem_gnu_CM33_0.ld`, `cymem_gnu_CM55_0.ld`: these three files contain all the defines for the regions in the memory configurator but have the ld extension to be easily picked up and integrated in the linker scripts for the GCC_ARM and LLVM_ARM toolchain
 * `cymem_gnu_regions_CM33_S_0.ld`, `cymem_gnu_regions_CM33_0.ld`, `cymem_gnu_regions_CM55_0.ld`: these three files contain all the MEMORY regions information as needed by the GCC_ARM and LLVM_ARM linkers to partition the memory correctly.
 * `cymem_ilinkarm_CM33_S_0.ld`, `cymem_ilinkarm_CM33_0.ld`, `cymem_ilinkarm_CM55_0.ld`: these three files contain all the defines for the regions in the memory onfigurator but have the icf extension to be easily picked up and integrated in the linker scripts for the IAR toolchain.
-* `cymem_ilinkarm_regions_CM33_S_0.ld`, `cymem_ilinkarm_regions_CM33_0.ld`, `cymem_ilinkarm_regions_CM55_0.ld` : these three files contain all the memory regions 
+* `cymem_ilinkarm_regions_CM33_S_0.ld`, `cymem_ilinkarm_regions_CM33_0.ld`, `cymem_ilinkarm_regions_CM55_0.ld` : these three files contain all the memory regions
 information as needed by the IAR linkers to partition the memory correctly.
 
 ## Note on memory aliases

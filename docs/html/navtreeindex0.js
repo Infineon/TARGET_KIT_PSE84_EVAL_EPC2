@@ -92,7 +92,7 @@ var NAVTREEINDEX0 =
 "index.html#autotoc_md8":[3,1],
 "index.html#autotoc_md9":[3,2],
 "md_bsp_settings.html":[9],
-"md_source_bsps_mt_bsp_user_guide.html":[8],
+"md_ci_src_docs_mt_bsp_user_guide.html":[8],
 "modules.html":[10],
 "pages.html":[]
 };

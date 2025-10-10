@@ -613,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="587" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="654"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="587" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="655"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -633,7 +633,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="668" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="668" bodyend="672"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="669" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="669" bodyend="673"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -675,7 +675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="689" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="689" bodyend="731"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="690" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="690" bodyend="732"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -705,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="751" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="751" bodyend="781"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" line="752" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="752" bodyend="782"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1035,13 +1035,13 @@ SPDX-License-Identifier: Apache-2.0</para>
 <codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_invec_ns_t*<sp/>inVec<sp/>=<sp/>NULL;</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_outvec_ns_t*<sp/>outVec<sp/>=<sp/>NULL;</highlight></codeline>
 <codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_output_ns_t*<sp/>output<sp/>=<sp/>NULL;</highlight></codeline>
-<codeline lineno="463"><highlight class="normal"></highlight></codeline>
-<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_allocate(&amp;cy_pdl_srf_default_pool,<sp/>&amp;inVec,<sp/>&amp;outVec,<sp/>0UL);</highlight></codeline>
-<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_pdl_syspm_srf_sysenablecm55_in_t<sp/>input_args;</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>input_args.vectorTableOffset<sp/>=<sp/>vectorTableOffset;</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/>input_args.waitus<sp/>=<sp/>waitus;</highlight></codeline>
 <codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>input_base[2U];</highlight></codeline>
-<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/>input_base[0U]<sp/>=<sp/>vectorTableOffset;</highlight></codeline>
-<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/>input_base[1U]<sp/>=<sp/>waitus;</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_allocate(&amp;cy_pdl_srf_default_pool,<sp/>&amp;inVec,<sp/>&amp;outVec,<sp/>0UL);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
 <codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_pdl_invoke_srf_args<sp/>invoke_args<sp/>=</highlight></codeline>
 <codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.inVec<sp/>=<sp/>inVec,</highlight></codeline>
@@ -1051,8 +1051,8 @@ SPDX-License-Identifier: Apache-2.0</para>
 <codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.submodule_id<sp/>=<sp/>CY_PDL_SECURE_SUBMODULE_SYSPM,</highlight></codeline>
 <codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.base<sp/>=<sp/>CM55Base,</highlight></codeline>
 <codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.sub_block<sp/>=<sp/>0UL,</highlight></codeline>
-<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_base<sp/>=<sp/>(uint8_t*)input_base,</highlight></codeline>
-<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_len<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(input_base),</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_base<sp/>=<sp/>(uint8_t*)(&amp;input_args),</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_len<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(input_args),</highlight></codeline>
 <codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_base<sp/>=<sp/>NULL,</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_len<sp/>=<sp/>0UL,</highlight></codeline>
 <codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.invec_bases<sp/>=<sp/>NULL,</highlight></codeline>
@@ -1154,167 +1154,168 @@ SPDX-License-Identifier: Apache-2.0</para>
 <codeline lineno="593"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_invec_ns_t*<sp/>inVec<sp/>=<sp/>NULL;</highlight></codeline>
 <codeline lineno="594"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_outvec_ns_t*<sp/>outVec<sp/>=<sp/>NULL;</highlight></codeline>
 <codeline lineno="595"><highlight class="normal"><sp/><sp/><sp/><sp/>mtb_srf_output_ns_t*<sp/>output<sp/>=<sp/>NULL;</highlight></codeline>
-<codeline lineno="596"><highlight class="normal"></highlight></codeline>
-<codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_allocate(&amp;cy_pdl_srf_default_pool,<sp/>&amp;inVec,<sp/>&amp;outVec,<sp/>0UL);</highlight></codeline>
-<codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
-<codeline lineno="599"><highlight class="normal"></highlight></codeline>
-<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>input_base<sp/>=<sp/>waitus;</highlight></codeline>
-<codeline lineno="601"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_pdl_invoke_srf_args<sp/>invoke_args<sp/>=</highlight></codeline>
-<codeline lineno="602"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.inVec<sp/>=<sp/>inVec,</highlight></codeline>
-<codeline lineno="604"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outVec<sp/>=<sp/>outVec,</highlight></codeline>
-<codeline lineno="605"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_ptr<sp/>=<sp/>&amp;output,</highlight></codeline>
-<codeline lineno="606"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.op_id<sp/>=<sp/>CY_PDL_SYSPM_OP_SYSRESETCM55,</highlight></codeline>
-<codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.submodule_id<sp/>=<sp/>CY_PDL_SECURE_SUBMODULE_SYSPM,</highlight></codeline>
-<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.base<sp/>=<sp/>CM55Base,</highlight></codeline>
-<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.sub_block<sp/>=<sp/>0UL,</highlight></codeline>
-<codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_base<sp/>=<sp/>(uint8_t*)(&amp;input_base),</highlight></codeline>
-<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_len<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(input_base),</highlight></codeline>
-<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_base<sp/>=<sp/>NULL,</highlight></codeline>
-<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_len<sp/>=<sp/>0UL,</highlight></codeline>
-<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.invec_bases<sp/>=<sp/>NULL,</highlight></codeline>
-<codeline lineno="615"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.invec_sizes<sp/>=<sp/>NULL,</highlight></codeline>
-<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outvec_bases<sp/>=<sp/>NULL,</highlight></codeline>
-<codeline lineno="617"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outvec_sizes<sp/>=<sp/>NULL</highlight></codeline>
-<codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>_Cy_PDL_Invoke_SRF(&amp;invoke_args);</highlight></codeline>
-<codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
-<codeline lineno="621"><highlight class="normal"></highlight></codeline>
-<codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_free(&amp;cy_pdl_srf_default_pool,<sp/>inVec,<sp/>outVec);</highlight></codeline>
-<codeline lineno="623"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
-<codeline lineno="624"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_UNUSED_PARAMETER(result);</highlight></codeline>
-<codeline lineno="625"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="626"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
-<codeline lineno="627"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
-<codeline lineno="628"><highlight class="normal"></highlight></codeline>
-<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
-<codeline lineno="630"><highlight class="normal"></highlight></codeline>
-<codeline lineno="631"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>CM55Base-&gt;CM55_CMD<sp/>&amp;<sp/>~(MXCM55_CM55_CMD_RESET_Msk<sp/>|<sp/>MXCM55_CM55_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
-<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM55_CM55_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM55_CM55_CMD_RESET,<sp/>CY_SYS_CM55_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>reset<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/>CM55Base-&gt;CM55_CMD<sp/>=<sp/>regValue;</highlight></codeline>
-<codeline lineno="635"><highlight class="normal"></highlight></codeline>
-<codeline lineno="636"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
-<codeline lineno="637"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>HW<sp/>automatically<sp/>clears<sp/>this<sp/>field<sp/>to<sp/>&apos;0&apos;.<sp/>This<sp/>effectively<sp/>results<sp/>in<sp/>a<sp/>CM55<sp/>reset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>_FLD2VAL(MXCM55_CM55_CMD_RESET,<sp/>CM55Base-&gt;CM55_CMD)<sp/>!=<sp/>CY_SYS_CM55_NOT_IN_RESET)</highlight></codeline>
-<codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="642"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="643"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="644"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="645"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="646"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>_FLD2VAL(MXCM55_CM55_CMD_RESET,<sp/>CM55Base-&gt;CM55_CMD)<sp/>!=<sp/>CY_SYS_CM55_NOT_IN_RESET)</highlight></codeline>
-<codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs((uint16_t)waitus);</highlight></codeline>
-<codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="651"><highlight class="normal"></highlight></codeline>
-<codeline lineno="652"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
-<codeline lineno="653"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="654"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="655"><highlight class="normal"></highlight></codeline>
-<codeline lineno="656"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="657"><highlight class="normal"></highlight></codeline>
-<codeline lineno="658"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="659"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
-<codeline lineno="660"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysGetCM33Status</highlight></codeline>
-<codeline lineno="661"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="668"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="669"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="670"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>current<sp/>power<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="671"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(MXCM33-&gt;CM33_STATUS);</highlight></codeline>
-<codeline lineno="672"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="673"><highlight class="normal"></highlight></codeline>
+<codeline lineno="596"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_pdl_syspm_srf_sysresetcm55_in_t<sp/>input_args;</highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/>input_args.waitus<sp/>=<sp/>waitus;</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"></highlight></codeline>
+<codeline lineno="599"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_allocate(&amp;cy_pdl_srf_default_pool,<sp/>&amp;inVec,<sp/>&amp;outVec,<sp/>0UL);</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
+<codeline lineno="601"><highlight class="normal"></highlight></codeline>
+<codeline lineno="602"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_pdl_invoke_srf_args<sp/>invoke_args<sp/>=</highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="604"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.inVec<sp/>=<sp/>inVec,</highlight></codeline>
+<codeline lineno="605"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outVec<sp/>=<sp/>outVec,</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_ptr<sp/>=<sp/>&amp;output,</highlight></codeline>
+<codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.op_id<sp/>=<sp/>CY_PDL_SYSPM_OP_SYSRESETCM55,</highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.submodule_id<sp/>=<sp/>CY_PDL_SECURE_SUBMODULE_SYSPM,</highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.base<sp/>=<sp/>CM55Base,</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.sub_block<sp/>=<sp/>0UL,</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_base<sp/>=<sp/>(uint8_t*)(&amp;input_args),</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.input_len<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(input_args),</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_base<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.output_len<sp/>=<sp/>0UL,</highlight></codeline>
+<codeline lineno="615"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.invec_bases<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.invec_sizes<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outvec_bases<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.outvec_sizes<sp/>=<sp/>NULL</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>_Cy_PDL_Invoke_SRF(&amp;invoke_args);</highlight></codeline>
+<codeline lineno="621"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
+<codeline lineno="622"><highlight class="normal"></highlight></codeline>
+<codeline lineno="623"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/>mtb_srf_pool_free(&amp;cy_pdl_srf_default_pool,<sp/>inVec,<sp/>outVec);</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_ASSERT_L2(CY_RSLT_SUCCESS<sp/>==<sp/>result);</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/>CY_UNUSED_PARAMETER(result);</highlight></codeline>
+<codeline lineno="626"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="627"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
+<codeline lineno="629"><highlight class="normal"></highlight></codeline>
+<codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"></highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>CM55Base-&gt;CM55_CMD<sp/>&amp;<sp/>~(MXCM55_CM55_CMD_RESET_Msk<sp/>|<sp/>MXCM55_CM55_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM55_CM55_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM55_CM55_CMD_RESET,<sp/>CY_SYS_CM55_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>reset<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/>CM55Base-&gt;CM55_CMD<sp/>=<sp/>regValue;</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight></codeline>
+<codeline lineno="637"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
+<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>HW<sp/>automatically<sp/>clears<sp/>this<sp/>field<sp/>to<sp/>&apos;0&apos;.<sp/>This<sp/>effectively<sp/>results<sp/>in<sp/>a<sp/>CM55<sp/>reset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>_FLD2VAL(MXCM55_CM55_CMD_RESET,<sp/>CM55Base-&gt;CM55_CMD)<sp/>!=<sp/>CY_SYS_CM55_NOT_IN_RESET)</highlight></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="643"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="646"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>_FLD2VAL(MXCM55_CM55_CMD_RESET,<sp/>CM55Base-&gt;CM55_CMD)<sp/>!=<sp/>CY_SYS_CM55_NOT_IN_RESET)</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs((uint16_t)waitus);</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"></highlight></codeline>
+<codeline lineno="653"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="655"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="656"><highlight class="normal"></highlight></codeline>
+<codeline lineno="657"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="658"><highlight class="normal"></highlight></codeline>
+<codeline lineno="659"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="660"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="661"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysGetCM33Status</highlight></codeline>
+<codeline lineno="662"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="669"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="670"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="671"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Return<sp/>current<sp/>power<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="672"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(MXCM33-&gt;CM33_STATUS);</highlight></codeline>
+<codeline lineno="673"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="674"><highlight class="normal"></highlight></codeline>
-<codeline lineno="675"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
-<codeline lineno="676"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysEnableCM33</highlight></codeline>
-<codeline lineno="677"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="689"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kindref="member">Cy_SysEnableCM33</ref>(uint32_t<sp/>vectorTableOffset,<sp/>uint32_t<sp/>waitus)</highlight></codeline>
-<codeline lineno="690"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="691"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
-<codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>cpuState;</highlight></codeline>
-<codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
-<codeline lineno="694"><highlight class="normal"></highlight></codeline>
-<codeline lineno="695"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
-<codeline lineno="696"><highlight class="normal"></highlight></codeline>
-<codeline lineno="697"><highlight class="normal"><sp/><sp/><sp/><sp/>cpuState<sp/>=<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>();</highlight></codeline>
-<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref><sp/>==<sp/>cpuState)</highlight></codeline>
-<codeline lineno="699"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="700"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kindref="member">Cy_SysResetCM33</ref>(CY_SYS_CORE_WAIT_10US);</highlight></codeline>
-<codeline lineno="701"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="702"><highlight class="normal"></highlight></codeline>
-<codeline lineno="703"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_S_VECTOR_TABLE_BASE<sp/>=<sp/>vectorTableOffset;</highlight></codeline>
-<codeline lineno="704"><highlight class="normal"></highlight></codeline>
-<codeline lineno="705"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>MXCM33-&gt;CM33_CMD<sp/>&amp;<sp/>~(MXCM33_CM33_CMD_ENABLED_Msk<sp/>|<sp/>MXCM33_CM33_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
-<codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="707"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_ENABLED,<sp/>CY_SYS_CM33_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>reset<sp/>enable<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CMD<sp/>=<sp/>regValue;</highlight></codeline>
-<codeline lineno="709"><highlight class="normal"></highlight></codeline>
-<codeline lineno="710"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
-<codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>()<sp/>!=<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref>)</highlight></codeline>
-<codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="715"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="716"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="717"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="718"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="719"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>()<sp/>!=<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref>)</highlight></codeline>
-<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs(waitus);</highlight></codeline>
-<codeline lineno="722"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="724"><highlight class="normal"></highlight></codeline>
-<codeline lineno="725"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CTL<sp/>&amp;=<sp/>~(_VAL2FLD(MXCM33_CM33_CTL_CPU_WAIT,<sp/>CY_SYS_CPU_WAIT_DEFAULT));</highlight></codeline>
-<codeline lineno="726"><highlight class="normal"></highlight></codeline>
-<codeline lineno="727"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Enable<sp/>Event<sp/>from<sp/>CM55<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="728"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_EVENT_CTL<sp/>=<sp/>CM55_0_CPU_EVENT;</highlight></codeline>
-<codeline lineno="729"><highlight class="normal"></highlight></codeline>
-<codeline lineno="730"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
-<codeline lineno="731"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="732"><highlight class="normal"></highlight></codeline>
+<codeline lineno="675"><highlight class="normal"></highlight></codeline>
+<codeline lineno="676"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="677"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysEnableCM33</highlight></codeline>
+<codeline lineno="678"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="690"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kindref="member">Cy_SysEnableCM33</ref>(uint32_t<sp/>vectorTableOffset,<sp/>uint32_t<sp/>waitus)</highlight></codeline>
+<codeline lineno="691"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
+<codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>cpuState;</highlight></codeline>
+<codeline lineno="694"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
+<codeline lineno="695"><highlight class="normal"></highlight></codeline>
+<codeline lineno="696"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
+<codeline lineno="697"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/>cpuState<sp/>=<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>();</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref><sp/>==<sp/>cpuState)</highlight></codeline>
+<codeline lineno="700"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="701"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kindref="member">Cy_SysResetCM33</ref>(CY_SYS_CORE_WAIT_10US);</highlight></codeline>
+<codeline lineno="702"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="703"><highlight class="normal"></highlight></codeline>
+<codeline lineno="704"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_S_VECTOR_TABLE_BASE<sp/>=<sp/>vectorTableOffset;</highlight></codeline>
+<codeline lineno="705"><highlight class="normal"></highlight></codeline>
+<codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>MXCM33-&gt;CM33_CMD<sp/>&amp;<sp/>~(MXCM33_CM33_CMD_ENABLED_Msk<sp/>|<sp/>MXCM33_CM33_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
+<codeline lineno="707"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_ENABLED,<sp/>CY_SYS_CM33_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>reset<sp/>enable<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="709"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CMD<sp/>=<sp/>regValue;</highlight></codeline>
+<codeline lineno="710"><highlight class="normal"></highlight></codeline>
+<codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
+<codeline lineno="712"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>()<sp/>!=<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref>)</highlight></codeline>
+<codeline lineno="714"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="715"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="716"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="717"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="718"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="719"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="720"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>()<sp/>!=<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" kindref="member">CY_SYS_CORE_STATUS_ACTIVE</ref>)</highlight></codeline>
+<codeline lineno="721"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="722"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs(waitus);</highlight></codeline>
+<codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="724"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="725"><highlight class="normal"></highlight></codeline>
+<codeline lineno="726"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CTL<sp/>&amp;=<sp/>~(_VAL2FLD(MXCM33_CM33_CTL_CPU_WAIT,<sp/>CY_SYS_CPU_WAIT_DEFAULT));</highlight></codeline>
+<codeline lineno="727"><highlight class="normal"></highlight></codeline>
+<codeline lineno="728"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Enable<sp/>Event<sp/>from<sp/>CM55<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="729"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_EVENT_CTL<sp/>=<sp/>CM55_0_CPU_EVENT;</highlight></codeline>
+<codeline lineno="730"><highlight class="normal"></highlight></codeline>
+<codeline lineno="731"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
+<codeline lineno="732"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="733"><highlight class="normal"></highlight></codeline>
-<codeline lineno="734"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
-<codeline lineno="735"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysResetCM33</highlight></codeline>
-<codeline lineno="736"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="751"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kindref="member">Cy_SysResetCM33</ref>(uint32_t<sp/>waitus)</highlight></codeline>
-<codeline lineno="752"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="753"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
-<codeline lineno="754"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
-<codeline lineno="755"><highlight class="normal"></highlight></codeline>
-<codeline lineno="756"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
-<codeline lineno="757"><highlight class="normal"></highlight></codeline>
-<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>MXCM33-&gt;CM33_CMD<sp/>&amp;<sp/>~(MXCM33_CM33_CMD_ENABLED_Msk<sp/>|<sp/>MXCM33_CM33_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
-<codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="760"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_ENABLED,<sp/>CY_SYS_CM33_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>reset<sp/>enable<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="761"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CMD<sp/>=<sp/>regValue;</highlight></codeline>
-<codeline lineno="762"><highlight class="normal"></highlight></codeline>
-<codeline lineno="763"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
-<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>After<sp/>SW<sp/>clears<sp/>this<sp/>field<sp/>to<sp/>&apos;0&apos;,<sp/>HW<sp/>automatically<sp/>sets<sp/>this<sp/>field<sp/>to<sp/>&apos;1&apos;.</highlight></codeline>
-<codeline lineno="766"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>effectively<sp/>results<sp/>in<sp/>a<sp/>CM33<sp/>reset,<sp/>followed<sp/>by<sp/>a<sp/>CM33<sp/>warm<sp/>boot.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="767"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>_FLD2VAL(MXCM33_CM33_CMD_ENABLED,<sp/>MXCM33-&gt;CM33_CMD)<sp/>!=<sp/>CY_SYS_CM33_NOT_IN_RESET)</highlight></codeline>
-<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="769"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="771"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="772"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="773"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>_FLD2VAL(MXCM33_CM33_CMD_ENABLED,<sp/>MXCM33-&gt;CM33_CMD)<sp/>!=<sp/>CY_SYS_CM33_NOT_IN_RESET)</highlight></codeline>
-<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="776"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs(waitus);</highlight></codeline>
-<codeline lineno="777"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="778"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="779"><highlight class="normal"></highlight></codeline>
-<codeline lineno="780"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
-<codeline lineno="781"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="782"><highlight class="normal"></highlight></codeline>
-<codeline lineno="783"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="784"><highlight class="normal"></highlight></codeline>
-<codeline lineno="785"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="786"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="787"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="734"><highlight class="normal"></highlight></codeline>
+<codeline lineno="735"><highlight class="normal"></highlight><highlight class="comment">/*******************************************************************************</highlight></codeline>
+<codeline lineno="736"><highlight class="comment">*<sp/>Function<sp/>Name:<sp/>Cy_SysResetCM33</highlight></codeline>
+<codeline lineno="737"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="752"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kindref="member">Cy_SysResetCM33</ref>(uint32_t<sp/>waitus)</highlight></codeline>
+<codeline lineno="753"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="754"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>interruptState;</highlight></codeline>
+<codeline lineno="755"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>regValue;</highlight></codeline>
+<codeline lineno="756"><highlight class="normal"></highlight></codeline>
+<codeline lineno="757"><highlight class="normal"><sp/><sp/><sp/><sp/>interruptState<sp/>=<sp/>Cy_SysLib_EnterCriticalSection();</highlight></codeline>
+<codeline lineno="758"><highlight class="normal"></highlight></codeline>
+<codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>=<sp/>MXCM33-&gt;CM33_CMD<sp/>&amp;<sp/>~(MXCM33_CM33_CMD_ENABLED_Msk<sp/>|<sp/>MXCM33_CM33_CMD_VECTKEYSTAT_Msk);</highlight></codeline>
+<codeline lineno="760"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_VECTKEYSTAT,<sp/><ref refid="group__group__system__config__system__macro__edge_1ga4f6dca85ca8144c2612e2c33d7ce3950" kindref="member">CY_SYS_CORE_PWR_CTL_KEY_OPEN</ref>);<sp/></highlight><highlight class="comment">/*<sp/>set<sp/>key<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="761"><highlight class="normal"><sp/><sp/><sp/><sp/>regValue<sp/>|=<sp/>_VAL2FLD(MXCM33_CM33_CMD_ENABLED,<sp/>CY_SYS_CM33_IN_RESET);<sp/></highlight><highlight class="comment">/*<sp/>reset<sp/>enable<sp/>bit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="762"><highlight class="normal"><sp/><sp/><sp/><sp/>MXCM33-&gt;CM33_CMD<sp/>=<sp/>regValue;</highlight></codeline>
+<codeline lineno="763"><highlight class="normal"></highlight></codeline>
+<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(waitus<sp/>==<sp/><ref refid="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" kindref="member">CY_SYS_CORE_WAIT_INFINITE</ref>)</highlight></codeline>
+<codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="766"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>After<sp/>SW<sp/>clears<sp/>this<sp/>field<sp/>to<sp/>&apos;0&apos;,<sp/>HW<sp/>automatically<sp/>sets<sp/>this<sp/>field<sp/>to<sp/>&apos;1&apos;.</highlight></codeline>
+<codeline lineno="767"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>effectively<sp/>results<sp/>in<sp/>a<sp/>CM33<sp/>reset,<sp/>followed<sp/>by<sp/>a<sp/>CM33<sp/>warm<sp/>boot.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<sp/>_FLD2VAL(MXCM33_CM33_CMD_ENABLED,<sp/>MXCM33-&gt;CM33_CMD)<sp/>!=<sp/>CY_SYS_CM33_NOT_IN_RESET)</highlight></codeline>
+<codeline lineno="769"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Wait<sp/>for<sp/>the<sp/>power<sp/>mode<sp/>to<sp/>take<sp/>effect<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="771"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="772"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="773"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>_FLD2VAL(MXCM33_CM33_CMD_ENABLED,<sp/>MXCM33-&gt;CM33_CMD)<sp/>!=<sp/>CY_SYS_CM33_NOT_IN_RESET)</highlight></codeline>
+<codeline lineno="776"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="777"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysLib_DelayUs(waitus);</highlight></codeline>
+<codeline lineno="778"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="780"><highlight class="normal"></highlight></codeline>
+<codeline lineno="781"><highlight class="normal"><sp/><sp/><sp/><sp/>Cy_SysLib_ExitCriticalSection(interruptState);</highlight></codeline>
+<codeline lineno="782"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="783"><highlight class="normal"></highlight></codeline>
+<codeline lineno="784"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="785"><highlight class="normal"></highlight></codeline>
+<codeline lineno="786"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="787"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="788"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c"/>
   </compounddef>

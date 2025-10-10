@@ -37,10 +37,10 @@
 <codeline><highlight class="normal">|<sp/><sp/>Clock<sp/><sp/><sp/>|<sp/><sp/><sp/>Source<sp/><sp/>|<sp/>Output<sp/>Frequency<sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>:------:<sp/>|<sp/>:-------:<sp/>|<sp/>:--------------:<sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF0<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF1<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>399<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF2<sp/><sp/>|<sp/>CLK_PATH2<sp/>|<sp/><sp/><sp/><sp/><sp/>299<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF1<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>400<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF2<sp/><sp/>|<sp/>CLK_PATH2<sp/>|<sp/><sp/><sp/><sp/><sp/>300<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF3<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
-<codeline><highlight class="normal">|<sp/>CLK_HF4<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>399<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>CLK_HF4<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>400<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF5<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF6<sp/><sp/>|<sp/>CLK_PATH0<sp/>|<sp/><sp/><sp/><sp/><sp/>200<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
 <codeline><highlight class="normal">|<sp/>CLK_HF7<sp/><sp/>|<sp/>CLK_PATH1<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/>49<sp/>MHz<sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>

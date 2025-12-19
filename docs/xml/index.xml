@@ -6025,18 +6025,18 @@
     <member refid="system__edge_8c_1ae27760f3ff7025b5b61730b54f9c1ee3" kind="define"><name>CY_APPSS_PWR_UP_US</name></member>
     <member refid="system__edge_8c_1ad8d5a8b44a9364e31cb9175c6bef3d1a" kind="define"><name>CY_SOCMEM_PWR_UP_US</name></member>
     <member refid="system__edge_8c_1a31c5863cfb0c8c5580fa8f94822eeaa5" kind="define"><name>CY_PWRMODE_CLK_SEL_DEFAULT_VALUE</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kind="function"><name>Cy_SysEnableU55</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kind="function"><name>Cy_SysU55Enable</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" kind="function"><name>Cy_System_EnablePD1</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" kind="function"><name>Cy_System_DisablePD1</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" kind="function"><name>Cy_SysGetCM55Status</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" kind="function"><name>Cy_SysCM55GetStatus</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kind="function"><name>Cy_SysEnableSOCMEM</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" kind="function"><name>Cy_System_SetCM55DbgPort</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" kind="function"><name>Cy_SysDisableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kind="function"><name>Cy_SysEnableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" kind="function"><name>Cy_SysResetCM55</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kind="function"><name>Cy_SysGetCM33Status</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kind="function"><name>Cy_SysEnableCM33</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kind="function"><name>Cy_SysResetCM33</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" kind="function"><name>Cy_SysCM55SetDbgPort</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" kind="function"><name>Cy_SysCM55Disable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kind="function"><name>Cy_SysCM55Enable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" kind="function"><name>Cy_SysCM55Reset</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" kind="function"><name>Cy_SysCM33GetStatus</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" kind="function"><name>Cy_SysCM33Enable</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" kind="function"><name>Cy_SysCM33Reset</name></member>
   </compound>
   <compound refid="system__edge_8h" kind="file"><name>system_edge.h</name>
     <member refid="system__edge_8h_1ae7dc410beedaddf865e13b9240ed3672" kind="define"><name>CY_SYSTEM_CPU_M0P</name></member>
@@ -6059,18 +6059,18 @@
     <member refid="system__edge_8h_1a93f514700ccf00d08dbdcff7f1224eb2" kind="function"><name>SystemInit</name></member>
     <member refid="system__edge_8h_1ae0c36a9591fe6e9c45ecb21a794f0f0f" kind="function"><name>SystemCoreClockUpdate</name></member>
     <member refid="system__edge_8h_1a15d44a0428b12582b056c2501fbe52e2" kind="function"><name>SystemCoreClockSetup</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" kind="function"><name>Cy_SysGetCM55Status</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kind="function"><name>Cy_SysEnableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" kind="function"><name>Cy_SysDisableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" kind="function"><name>Cy_SysResetCM55</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" kind="function"><name>Cy_SysCM55GetStatus</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kind="function"><name>Cy_SysCM55Enable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" kind="function"><name>Cy_SysCM55Disable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" kind="function"><name>Cy_SysCM55Reset</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kind="function"><name>Cy_SysEnableSOCMEM</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" kind="function"><name>Cy_System_EnablePD1</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" kind="function"><name>Cy_System_DisablePD1</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" kind="function"><name>Cy_System_SetCM55DbgPort</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kind="function"><name>Cy_SysEnableU55</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kind="function"><name>Cy_SysGetCM33Status</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kind="function"><name>Cy_SysEnableCM33</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kind="function"><name>Cy_SysResetCM33</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" kind="function"><name>Cy_SysCM55SetDbgPort</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kind="function"><name>Cy_SysU55Enable</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" kind="function"><name>Cy_SysCM33GetStatus</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" kind="function"><name>Cy_SysCM33Enable</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" kind="function"><name>Cy_SysCM33Reset</name></member>
     <member refid="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" kind="function"><name>cy_CbusRemapAddr</name></member>
     <member refid="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" kind="function"><name>cy_AhbRemapAddr</name></member>
   </compound>
@@ -6123,22 +6123,22 @@
     <member refid="group__group__system__config__functions__edge_1ga70ad2d6aad9d042677abbbbc571f9d68" kind="function"><name>Cy_SystemInit</name></member>
   </compound>
   <compound refid="group__group__system__config__cm33__functions__edge" kind="group"><name>group_system_config_cm33_functions_edge</name>
-    <member refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kind="function"><name>Cy_SysGetCM33Status</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kind="function"><name>Cy_SysEnableCM33</name></member>
-    <member refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kind="function"><name>Cy_SysResetCM33</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" kind="function"><name>Cy_SysCM33GetStatus</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" kind="function"><name>Cy_SysCM33Enable</name></member>
+    <member refid="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" kind="function"><name>Cy_SysCM33Reset</name></member>
     <member refid="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" kind="function"><name>cy_CbusRemapAddr</name></member>
     <member refid="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" kind="function"><name>cy_AhbRemapAddr</name></member>
   </compound>
   <compound refid="group__group__system__config__cm55__functions__edge" kind="group"><name>group_system_config_cm55_functions_edge</name>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" kind="function"><name>Cy_SysGetCM55Status</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kind="function"><name>Cy_SysEnableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" kind="function"><name>Cy_SysDisableCM55</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" kind="function"><name>Cy_SysResetCM55</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" kind="function"><name>Cy_SysCM55GetStatus</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kind="function"><name>Cy_SysCM55Enable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" kind="function"><name>Cy_SysCM55Disable</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" kind="function"><name>Cy_SysCM55Reset</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kind="function"><name>Cy_SysEnableSOCMEM</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" kind="function"><name>Cy_System_EnablePD1</name></member>
     <member refid="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" kind="function"><name>Cy_System_DisablePD1</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" kind="function"><name>Cy_System_SetCM55DbgPort</name></member>
-    <member refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kind="function"><name>Cy_SysEnableU55</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" kind="function"><name>Cy_SysCM55SetDbgPort</name></member>
+    <member refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kind="function"><name>Cy_SysU55Enable</name></member>
   </compound>
   <compound refid="group__group__system__config__globals__edge" kind="group"><name>group_system_config_globals_edge</name>
     <member refid="group__group__system__config__globals__edge_1gaa3cd3e43291e81e795d642b79b6088e6" kind="variable"><name>SystemCoreClock</name></member>

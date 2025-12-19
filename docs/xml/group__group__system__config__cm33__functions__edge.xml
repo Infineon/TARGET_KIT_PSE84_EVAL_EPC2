@@ -4,11 +4,11 @@
     <compoundname>group_system_config_cm33_functions_edge</compoundname>
     <title>Cortex-M33 Control Functions</title>
       <sectiondef kind="func">
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
-        <definition>uint32_t Cy_SysGetCM33Status</definition>
+        <definition>uint32_t Cy_SysCM33GetStatus</definition>
         <argsstring>(void)</argsstring>
-        <name>Cy_SysGetCM33Status</name>
+        <name>Cy_SysCM33GetStatus</name>
         <param>
           <type>void</type>
         </param>
@@ -22,13 +22,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="166" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="669" bodyend="673" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="166" declcolumn="10"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="177" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="690" bodyend="694" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="177" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableCM33</definition>
+        <definition>void Cy_SysCM33Enable</definition>
         <argsstring>(uint32_t vectorTableOffset, uint32_t waitus)</argsstring>
-        <name>Cy_SysEnableCM33</name>
+        <name>Cy_SysCM33Enable</name>
         <param>
           <type>uint32_t</type>
           <declname>vectorTableOffset</declname>
@@ -64,13 +64,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="167" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="690" bodyend="732" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="167" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="178" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="711" bodyend="753" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="178" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysResetCM33</definition>
+        <definition>void Cy_SysCM33Reset</definition>
         <argsstring>(uint32_t waitus)</argsstring>
-        <name>Cy_SysResetCM33</name>
+        <name>Cy_SysCM33Reset</name>
         <param>
           <type>uint32_t</type>
           <declname>waitus</declname>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="168" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="752" bodyend="782" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="168" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="179" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="773" bodyend="803" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="179" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="181" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="181" bodyend="217"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="192" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="192" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="229" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="229" bodyend="266"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="240" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="240" bodyend="277"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

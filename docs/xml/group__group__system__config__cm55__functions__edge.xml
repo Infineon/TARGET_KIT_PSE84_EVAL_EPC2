@@ -4,11 +4,11 @@
     <compoundname>group_system_config_cm55_functions_edge</compoundname>
     <title>Cortex-M55 Control Functions</title>
       <sectiondef kind="func">
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
-        <definition>uint32_t Cy_SysGetCM55Status</definition>
+        <definition>uint32_t Cy_SysCM55GetStatus</definition>
         <argsstring>(MXCM55_Type *CM55Base)</argsstring>
-        <name>Cy_SysGetCM55Status</name>
+        <name>Cy_SysCM55GetStatus</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -32,13 +32,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="145" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="265" bodyend="270" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="145" declcolumn="10"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="156" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="278" bodyend="283" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="156" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableCM55</definition>
-        <argsstring>(MXCM55_Type *CM55Base, uint32_t vectorTableOffset, uint32_t waitus)</argsstring>
-        <name>Cy_SysEnableCM55</name>
+        <definition>void Cy_SysCM55Enable</definition>
+        <argsstring>(MXCM55_Type *CM55Base, uint32_t vectorTableOffset, cy_app_cpu_dbg_port_type_t dbgMode, uint32_t waitus)</argsstring>
+        <name>Cy_SysCM55Enable</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -48,11 +48,15 @@
           <declname>vectorTableOffset</declname>
         </param>
         <param>
+          <type><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref></type>
+          <declname>dbgMode</declname>
+        </param>
+        <param>
           <type>uint32_t</type>
           <declname>waitus</declname>
         </param>
         <briefdescription>
-<para>Sets vector table base address and enables the Cortex-M55 core. </para>
+<para>Sets vector table base address and enables the Cortex-M55 core and its debug port policy. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>If the CPU is already enabled, it is reset and then enabled. </para>
@@ -77,6 +81,14 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
+<parametername>dbgMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>debug port policy. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
 <parametername>waitus</parametername>
 </parameternamelist>
 <parameterdescription>
@@ -90,13 +102,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="146" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="453" bodyend="567" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="146" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="157" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="468" bodyend="588" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="157" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysDisableCM55</definition>
+        <definition>void Cy_SysCM55Disable</definition>
         <argsstring>(void)</argsstring>
-        <name>Cy_SysDisableCM55</name>
+        <name>Cy_SysCM55Disable</name>
         <param>
           <type>void</type>
         </param>
@@ -114,13 +126,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="147" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="389" bodyend="429" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="147" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="158" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="402" bodyend="442" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="158" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysResetCM55</definition>
+        <definition>void Cy_SysCM55Reset</definition>
         <argsstring>(MXCM55_Type *CM55Base, uint32_t waitus)</argsstring>
-        <name>Cy_SysResetCM55</name>
+        <name>Cy_SysCM55Reset</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -156,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="148" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="655" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="148" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="159" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="608" bodyend="676" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="159" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -184,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="149" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="283" bodyend="336" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="149" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="160" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="296" bodyend="349" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="160" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -223,12 +235,12 @@
 </para>
 <para>Once PD1 is enabled, switching ON/OFF of individual power domains under PD1 can be done using below API&apos;s</para>
 <para><ref refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kindref="member">Cy_SysEnableSOCMEM</ref></para>
-<para><ref refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kindref="member">Cy_SysEnableCM55</ref></para>
-<para><ref refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kindref="member">Cy_SysEnableU55</ref> </para>
+<para><ref refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kindref="member">Cy_SysCM55Enable</ref></para>
+<para><ref refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kindref="member">Cy_SysU55Enable</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="150" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="175" bodyend="236" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="150" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="161" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="188" bodyend="249" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="161" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -245,13 +257,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="151" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="245" bodyend="254" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="151" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="162" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="258" bodyend="267" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="162" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_System_SetCM55DbgPort</definition>
+        <definition>void Cy_SysCM55SetDbgPort</definition>
         <argsstring>(cy_app_cpu_dbg_port_type_t dbgMode)</argsstring>
-        <name>Cy_System_SetCM55DbgPort</name>
+        <name>Cy_SysCM55SetDbgPort</name>
         <param>
           <type><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref></type>
           <declname>dbgMode</declname>
@@ -278,22 +290,22 @@
 <para>Enables invasive debug &amp; all trace and non-invasive enable for CM55</para>
 <para>Invalid value passed</para>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="152" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="346" bodyend="376" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="152" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="163" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="359" bodyend="389" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="163" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableU55</definition>
+        <definition>void Cy_SysU55Enable</definition>
         <argsstring>(bool enable)</argsstring>
-        <name>Cy_SysEnableU55</name>
+        <name>Cy_SysU55Enable</name>
         <param>
           <type>bool</type>
           <declname>enable</declname>
         </param>
         <briefdescription>
-<para>This function enables or disable U55 ML accelerator based on parameter value. </para>
+<para>This function enables or disables the U55 ML accelerator When enabling, this enables the clock, configures the PPU to active, and sets PDCM dependency to keep the U55 active as long as the current CPU is active. </para>
         </briefdescription>
         <detaileddescription>
-<para>In Enable case function will enable clock, PPU and SCTL register. In Disable case it will disable PPU and SCTL, clock will not be disabled.</para>
+<para>In Disable case it configures the PPU to off, clears the PDCM dependency to allow the U55 to disable, then disables the clock once the U55 has successfully powered off. This function waits to return until the U55 has powered off.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>enable</parametername>
@@ -307,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="155" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="88" bodyend="113" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="155" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="166" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="91" bodyend="126" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="166" declcolumn="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

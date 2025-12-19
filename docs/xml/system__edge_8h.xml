@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="75" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="75" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="86" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__user__settings__macro__edge_1gaf7ce010fed54e442c870c003790c232e" prot="public" static="no">
         <name>CY_CM55_APP_BOOT_ADDR</name>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="82" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="82" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="93" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__user__settings__macro__edge_1ga02de510de4ee1e844aa544b0db2c5b90" prot="public" static="no">
         <name>CY_CORTEX_M55_APPL_ADDR</name>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="87" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="87" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="98" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__core__status__macro__edge_1gaf8d12e58d12dfa8262844eca954ed88e" prot="public" static="no">
         <name>CY_SYS_CORE_STATUS_ACTIVE</name>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="130" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="130" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="141" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__core__status__macro__edge_1gae19edffb916199f0c61480f8fa7dc097" prot="public" static="no">
         <name>CY_SYS_CORE_STATUS_SLEEP</name>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="131" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="131" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="142" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__core__status__macro__edge_1ga69276501d56771fe9a6d7096785b7e29" prot="public" static="no">
         <name>CY_SYS_CORE_STATUS_DEEPSLEEP</name>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="132" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="132" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="143" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__core__status__macro__edge_1gabef3d6a425977837ff60cb1913452fd9" prot="public" static="no">
         <name>CY_SYS_CORE_STATUS_INVALID</name>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="133" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="133" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="144" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__group__system__config__core__status__macro__edge_1gab80ec125ebf59f019c95a7b7076821b9" prot="public" static="no">
         <name>CY_SYS_CORE_WAIT_INFINITE</name>
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="135" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="135" bodyend="-1"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="146" column="9" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="55" column="1" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="56" bodyend="61"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="66" column="1" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="67" bodyend="72"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="103" column="17" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="53" bodyend="-1" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="103" declcolumn="17"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="114" column="17" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="53" bodyend="-1" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="114" declcolumn="17"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="109" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="98" bodyend="102" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="109" declcolumn="13"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="120" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="98" bodyend="102" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="120" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="system__edge_8h_1ae0c36a9591fe6e9c45ecb21a794f0f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="116" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="117" bodyend="135" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="116" declcolumn="13"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="127" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="117" bodyend="135" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="127" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="system__edge_8h_1a15d44a0428b12582b056c2501fbe52e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -289,13 +289,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="122" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="140" bodyend="150" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="122" declcolumn="13"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="133" column="13" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/COMPONENT_CM33/COMPONENT_NON_SECURE_DEVICE/ns_system_pse84.c" bodystart="140" bodyend="150" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="133" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
-        <definition>uint32_t Cy_SysGetCM55Status</definition>
+        <definition>uint32_t Cy_SysCM55GetStatus</definition>
         <argsstring>(MXCM55_Type *CM55Base)</argsstring>
-        <name>Cy_SysGetCM55Status</name>
+        <name>Cy_SysCM55GetStatus</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -319,13 +319,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="145" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="265" bodyend="270" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="145" declcolumn="10"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="156" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="278" bodyend="283" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="156" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableCM55</definition>
-        <argsstring>(MXCM55_Type *CM55Base, uint32_t vectorTableOffset, uint32_t waitus)</argsstring>
-        <name>Cy_SysEnableCM55</name>
+        <definition>void Cy_SysCM55Enable</definition>
+        <argsstring>(MXCM55_Type *CM55Base, uint32_t vectorTableOffset, cy_app_cpu_dbg_port_type_t dbgMode, uint32_t waitus)</argsstring>
+        <name>Cy_SysCM55Enable</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -335,11 +335,15 @@
           <declname>vectorTableOffset</declname>
         </param>
         <param>
+          <type><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref></type>
+          <declname>dbgMode</declname>
+        </param>
+        <param>
           <type>uint32_t</type>
           <declname>waitus</declname>
         </param>
         <briefdescription>
-<para>Sets vector table base address and enables the Cortex-M55 core. </para>
+<para>Sets vector table base address and enables the Cortex-M55 core and its debug port policy. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>If the CPU is already enabled, it is reset and then enabled. </para>
@@ -364,6 +368,14 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
+<parametername>dbgMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>debug port policy. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
 <parametername>waitus</parametername>
 </parameternamelist>
 <parameterdescription>
@@ -377,13 +389,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="146" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="453" bodyend="567" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="146" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="157" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="468" bodyend="588" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="157" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysDisableCM55</definition>
+        <definition>void Cy_SysCM55Disable</definition>
         <argsstring>(void)</argsstring>
-        <name>Cy_SysDisableCM55</name>
+        <name>Cy_SysCM55Disable</name>
         <param>
           <type>void</type>
         </param>
@@ -401,13 +413,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="147" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="389" bodyend="429" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="147" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="158" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="402" bodyend="442" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="158" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysResetCM55</definition>
+        <definition>void Cy_SysCM55Reset</definition>
         <argsstring>(MXCM55_Type *CM55Base, uint32_t waitus)</argsstring>
-        <name>Cy_SysResetCM55</name>
+        <name>Cy_SysCM55Reset</name>
         <param>
           <type>MXCM55_Type *</type>
           <declname>CM55Base</declname>
@@ -443,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="148" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="587" bodyend="655" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="148" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="159" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="608" bodyend="676" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="159" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -471,7 +483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="149" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="283" bodyend="336" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="149" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="160" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="296" bodyend="349" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="160" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -510,12 +522,12 @@
 </para>
 <para>Once PD1 is enabled, switching ON/OFF of individual power domains under PD1 can be done using below API&apos;s</para>
 <para><ref refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kindref="member">Cy_SysEnableSOCMEM</ref></para>
-<para><ref refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kindref="member">Cy_SysEnableCM55</ref></para>
-<para><ref refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kindref="member">Cy_SysEnableU55</ref> </para>
+<para><ref refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kindref="member">Cy_SysCM55Enable</ref></para>
+<para><ref refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kindref="member">Cy_SysU55Enable</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="150" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="175" bodyend="236" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="150" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="161" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="188" bodyend="249" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="161" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -532,13 +544,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="151" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="245" bodyend="254" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="151" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="162" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="258" bodyend="267" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="162" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_System_SetCM55DbgPort</definition>
+        <definition>void Cy_SysCM55SetDbgPort</definition>
         <argsstring>(cy_app_cpu_dbg_port_type_t dbgMode)</argsstring>
-        <name>Cy_System_SetCM55DbgPort</name>
+        <name>Cy_SysCM55SetDbgPort</name>
         <param>
           <type><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref></type>
           <declname>dbgMode</declname>
@@ -565,22 +577,22 @@
 <para>Enables invasive debug &amp; all trace and non-invasive enable for CM55</para>
 <para>Invalid value passed</para>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="152" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="346" bodyend="376" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="152" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="163" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="359" bodyend="389" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="163" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableU55</definition>
+        <definition>void Cy_SysU55Enable</definition>
         <argsstring>(bool enable)</argsstring>
-        <name>Cy_SysEnableU55</name>
+        <name>Cy_SysU55Enable</name>
         <param>
           <type>bool</type>
           <declname>enable</declname>
         </param>
         <briefdescription>
-<para>This function enables or disable U55 ML accelerator based on parameter value. </para>
+<para>This function enables or disables the U55 ML accelerator When enabling, this enables the clock, configures the PPU to active, and sets PDCM dependency to keep the U55 active as long as the current CPU is active. </para>
         </briefdescription>
         <detaileddescription>
-<para>In Enable case function will enable clock, PPU and SCTL register. In Disable case it will disable PPU and SCTL, clock will not be disabled.</para>
+<para>In Disable case it configures the PPU to off, clears the PDCM dependency to allow the U55 to disable, then disables the clock once the U55 has successfully powered off. This function waits to return until the U55 has powered off.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>enable</parametername>
@@ -594,13 +606,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="155" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="88" bodyend="113" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="155" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="166" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="91" bodyend="126" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="166" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
-        <definition>uint32_t Cy_SysGetCM33Status</definition>
+        <definition>uint32_t Cy_SysCM33GetStatus</definition>
         <argsstring>(void)</argsstring>
-        <name>Cy_SysGetCM33Status</name>
+        <name>Cy_SysCM33GetStatus</name>
         <param>
           <type>void</type>
         </param>
@@ -614,13 +626,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="166" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="669" bodyend="673" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="166" declcolumn="10"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="177" column="10" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="690" bodyend="694" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="177" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysEnableCM33</definition>
+        <definition>void Cy_SysCM33Enable</definition>
         <argsstring>(uint32_t vectorTableOffset, uint32_t waitus)</argsstring>
-        <name>Cy_SysEnableCM33</name>
+        <name>Cy_SysCM33Enable</name>
         <param>
           <type>uint32_t</type>
           <declname>vectorTableOffset</declname>
@@ -656,13 +668,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="167" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="690" bodyend="732" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="167" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="178" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="711" bodyend="753" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="178" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void Cy_SysResetCM33</definition>
+        <definition>void Cy_SysCM33Reset</definition>
         <argsstring>(uint32_t waitus)</argsstring>
-        <name>Cy_SysResetCM33</name>
+        <name>Cy_SysCM33Reset</name>
         <param>
           <type>uint32_t</type>
           <declname>waitus</declname>
@@ -686,7 +698,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="168" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="752" bodyend="782" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="168" declcolumn="6"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="179" column="6" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.c" bodystart="773" bodyend="803" declfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" declline="179" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -723,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="181" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="181" bodyend="217"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="192" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="192" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint32_t</type>
@@ -760,7 +772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="229" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="229" bodyend="266"/>
+        <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" line="240" column="24" bodyfile="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h" bodystart="240" bodyend="277"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -795,206 +807,217 @@ Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you ma
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Deprecated<sp/>enumerator<sp/>names.<sp/>Do<sp/>not<sp/>use<sp/>them<sp/>in<sp/>the<sp/>new<sp/>design.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APPCPUSS_DBG_INVASSIVE_MODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>APPCPUSS_DBG_INVASIVE_MODE</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APPCPUSS_DBG_TRACES_NON_INVASSIVE_MODE<sp/><sp/><sp/><sp/><sp/>APPCPUSS_DBG_TRACES_NON_INVASIVE_MODE</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a8123f09fa422958d437363e73e81b533" kindref="member">APPCPUSS_DBG_DISABLE</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a4cecfb04b25542eacd3ed33cdf6ba599" kindref="member">APPCPUSS_DBG_INVASIVE_MODE</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a84dc69dd02052685b51bcb92bf019523" kindref="member">APPCPUSS_DBG_TRACES_NON_INVASIVE_MODE</ref><sp/>=<sp/>2,</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a12c86f1dd49c90c73a30191570cf7655" kindref="member">APPCPUSS_DBG_ENABLE_ALL</ref><sp/>=<sp/>3,<sp/></highlight></codeline>
-<codeline lineno="61"><highlight class="normal">}<sp/><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref>;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>(CY_CORTEX_M33_NS_APPL_ADDR)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CY_CORTEX_M33_NS_APPL_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x08340400)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_CORTEX_M33_NS_APPL_ADDR)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(CY_CM55_APP_BOOT_ADDR)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_CM55_APP_BOOT_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x60580400)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>(CY_CORTEX_M55_APPL_ADDR)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CY_CORTEX_M55_APPL_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CY_CM55_APP_BOOT_ADDR)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_CORTEX_M55_APPL_ADDR)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M33)<sp/>&amp;&amp;<sp/>defined(COMPONENT_SECURE_DEVICE)<sp/>&amp;&amp;<sp/>defined(__ARM_FEATURE_CMSE)<sp/>&amp;&amp;<sp/>(__ARM_FEATURE_CMSE<sp/>==<sp/>3U)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*cy_cmse_funcptr)<sp/>(void)<sp/>__attribute__((cmse_nonsecure_call));</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>(CY_SYSTEM_CPU_M33)<sp/>&amp;&amp;<sp/>defined(COMPONENT_SECURE_DEVICE)<sp/>&amp;&amp;<sp/>defined<sp/>(__ARM_FEATURE_CMSE)<sp/>&amp;&amp;<sp/>(__ARM_FEATURE_CMSE<sp/>==<sp/>3U)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__globals__edge_1gaa3cd3e43291e81e795d642b79b6088e6" kindref="member">SystemCoreClock</ref>;</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1ga93f514700ccf00d08dbdcff7f1224eb2" kindref="member">SystemInit</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>BWC<sp/>defines<sp/>for<sp/>CM33,<sp/>CM55<sp/>and<sp/>U55<sp/>related<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysEnableCM55(A,<sp/>B,<sp/>C)<sp/><sp/><sp/><sp/>Cy_SysCM55Enable(A,<sp/>B,<sp/>APPCPUSS_DBG_ENABLE_ALL,<sp/>C)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysDisableCM55<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM55Disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysResetCM55(A,<sp/>B)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM55Reset(A,<sp/>B)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysGetCM55Status(A)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM55GetStatus(A)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_System_SetCM55DbgPort(A)<sp/><sp/>Cy_SysCM55SetDbgPort(A)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysEnableCM33(A,<sp/>B)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM33Enable(A,<sp/>B)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysResetCM33(A,<sp/>B)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM33Reset(A,<sp/>B)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysGetCM33Status<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysCM33GetStatus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Cy_SysEnableU55(A)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cy_SysU55Enable(A)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a8123f09fa422958d437363e73e81b533" kindref="member">APPCPUSS_DBG_DISABLE</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a4cecfb04b25542eacd3ed33cdf6ba599" kindref="member">APPCPUSS_DBG_INVASIVE_MODE</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a84dc69dd02052685b51bcb92bf019523" kindref="member">APPCPUSS_DBG_TRACES_NON_INVASIVE_MODE</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><ref refid="group__group__system__enums_1gga634e13f2e3ab2305ee501dea2d00ed24a12c86f1dd49c90c73a30191570cf7655" kindref="member">APPCPUSS_DBG_ENABLE_ALL</ref><sp/>=<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}<sp/><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>(CY_CORTEX_M33_NS_APPL_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CY_CORTEX_M33_NS_APPL_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x08340400)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_CORTEX_M33_NS_APPL_ADDR)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(CY_CM55_APP_BOOT_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_CM55_APP_BOOT_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x60580400)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined<sp/>(CY_CORTEX_M55_APPL_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>CY_CORTEX_M55_APPL_ADDR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(CY_CM55_APP_BOOT_ADDR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_CORTEX_M55_APPL_ADDR)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M33)<sp/>&amp;&amp;<sp/>defined(COMPONENT_SECURE_DEVICE)<sp/>&amp;&amp;<sp/>defined(__ARM_FEATURE_CMSE)<sp/>&amp;&amp;<sp/>(__ARM_FEATURE_CMSE<sp/>==<sp/>3U)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*cy_cmse_funcptr)<sp/>(void)<sp/>__attribute__((cmse_nonsecure_call));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>(CY_SYSTEM_CPU_M33)<sp/>&amp;&amp;<sp/>defined(COMPONENT_SECURE_DEVICE)<sp/>&amp;&amp;<sp/>defined<sp/>(__ARM_FEATURE_CMSE)<sp/>&amp;&amp;<sp/>(__ARM_FEATURE_CMSE<sp/>==<sp/>3U)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1gae0c36a9591fe6e9c45ecb21a794f0f0f" kindref="member">SystemCoreClockUpdate</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1ga15d44a0428b12582b056c2501fbe52e2" kindref="member">SystemCoreClockSetup</ref><sp/>(uint32_t<sp/>systemCoreClk_freq_hz,<sp/>uint32_t<sp/>ahb_freq_hz);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>TODO:<sp/>Do<sp/>we<sp/>need<sp/>to<sp/>put<sp/>this<sp/>block<sp/>inside<sp/>CM33<sp/>core<sp/>flag?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_ACTIVE<sp/><sp/><sp/><sp/><sp/>(0x0U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_SLEEP<sp/><sp/><sp/><sp/><sp/><sp/>(0x1U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_DEEPSLEEP<sp/><sp/>(0x3U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_INVALID<sp/><sp/><sp/><sp/>(0x2U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_WAIT_INFINITE<sp/><sp/><sp/><sp/><sp/>(0x0U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaae071d9aa06b1521ffb4ade90427663d" kindref="member">Cy_SysGetCM55Status</ref>(MXCM55_Type<sp/>*CM55Base);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga217548bd04d25a04605ed849ad0d48d7" kindref="member">Cy_SysEnableCM55</ref>(MXCM55_Type<sp/>*CM55Base,<sp/>uint32_t<sp/>vectorTableOffset,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga00b9f8f981078573e33ea3bc8dfe3953" kindref="member">Cy_SysDisableCM55</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaefb44248455755cc712a5e1727bfb7e3" kindref="member">Cy_SysResetCM55</ref>(MXCM55_Type<sp/>*CM55Base,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kindref="member">Cy_SysEnableSOCMEM</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" kindref="member">Cy_System_EnablePD1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" kindref="member">Cy_System_DisablePD1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gab32c0053958b3a603bd537ee02f08384" kindref="member">Cy_System_SetCM55DbgPort</ref>(<ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref><sp/>dbgMode);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M55<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga15fdf090c8be086dbd6e678f01b570a4" kindref="member">Cy_SysEnableU55</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M55<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga3df83f4b992cb04d52dda91b5b72a2fb" kindref="member">Cy_SysGetCM33Status</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gad4a07f4a887071824a6c5fe1ee561959" kindref="member">Cy_SysEnableCM33</ref>(uint32_t<sp/>vectorTableOffset,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa66c68ffc54721dca2d8c251b6abe615" kindref="member">Cy_SysResetCM33</ref>(uint32_t<sp/>waitus);</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" kindref="member">cy_CbusRemapAddr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
-<codeline lineno="182"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SRAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SRAM_BASE<sp/>+<sp/>CY_SRAM_SIZE)))</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SRAM_BASE;</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SRAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>SOCMEM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SOCMEM_RAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SOCMEM_RAM_BASE<sp/>+<sp/>CY_SOCMEM_RAM_SIZE)))</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SOCMEM_RAM_BASE;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SOCMEM_RAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>XIP<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_XIP_PORT0_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_XIP_PORT1_BASE<sp/>+<sp/>CY_XIP_PORT1_SIZE)))</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_XIP_PORT0_BASE;</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/><sp/>CY_XIP_PORT0_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>RRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_RRAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_RRAM_CBUS_BASE<sp/>+<sp/>CY_RRAM_SIZE)))</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_RRAM_CBUS_BASE;</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_RRAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/>}</highlight><highlight class="comment">/*<sp/>no<sp/>remapping,<sp/>addr<sp/>not<sp/>in<sp/>range<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__globals__edge_1gaa3cd3e43291e81e795d642b79b6088e6" kindref="member">SystemCoreClock</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1ga93f514700ccf00d08dbdcff7f1224eb2" kindref="member">SystemInit</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1gae0c36a9591fe6e9c45ecb21a794f0f0f" kindref="member">SystemCoreClockUpdate</ref><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__functions__edge_1ga15d44a0428b12582b056c2501fbe52e2" kindref="member">SystemCoreClockSetup</ref><sp/>(uint32_t<sp/>systemCoreClk_freq_hz,<sp/>uint32_t<sp/>ahb_freq_hz);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>TODO:<sp/>Do<sp/>we<sp/>need<sp/>to<sp/>put<sp/>this<sp/>block<sp/>inside<sp/>CM33<sp/>core<sp/>flag?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_ACTIVE<sp/><sp/><sp/><sp/><sp/>(0x0U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_SLEEP<sp/><sp/><sp/><sp/><sp/><sp/>(0x1U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_DEEPSLEEP<sp/><sp/>(0x3U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_STATUS_INVALID<sp/><sp/><sp/><sp/>(0x2U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_SYS_CORE_WAIT_INFINITE<sp/><sp/><sp/><sp/><sp/>(0x0U)<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm55__functions__edge_1gae852a7b7f1309b8d97c11eb2ee713179" kindref="member">Cy_SysCM55GetStatus</ref>(MXCM55_Type<sp/>*CM55Base);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaaee957e11ebb7961c2a80a7fc8785f95" kindref="member">Cy_SysCM55Enable</ref>(MXCM55_Type<sp/>*CM55Base,<sp/>uint32_t<sp/>vectorTableOffset,<sp/><ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref><sp/>dbgMode,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga688183b526204c8dd5a0556ffdc02683" kindref="member">Cy_SysCM55Disable</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaae3cf41b1f6eeb4f6f01bed9d5653089" kindref="member">Cy_SysCM55Reset</ref>(MXCM55_Type<sp/>*CM55Base,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga2c9c7235b32e25e40b5a60493c6f5fa7" kindref="member">Cy_SysEnableSOCMEM</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gae0b13828ca2650fd4b17663dea8238d8" kindref="member">Cy_System_EnablePD1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gaa864ce851a42f626f26befe50b6aedd0" kindref="member">Cy_System_DisablePD1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1gad700761d3215537e5c660feb96345f40" kindref="member">Cy_SysCM55SetDbgPort</ref>(<ref refid="group__group__system__enums_1ga634e13f2e3ab2305ee501dea2d00ed24" kindref="member">cy_app_cpu_dbg_port_type_t</ref><sp/>dbgMode);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M33<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M55<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm55__functions__edge_1ga237ac03639063c3f32e14961fcc194c1" kindref="member">Cy_SysU55Enable</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M55<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa15fa85670d0eedf2d279e7224400022" kindref="member">Cy_SysCM33GetStatus</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga8f3b905620b91664007b3ba7fe58c133" kindref="member">Cy_SysCM33Enable</ref>(uint32_t<sp/>vectorTableOffset,<sp/>uint32_t<sp/>waitus);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa45b4961fc31a1b0bf59ff42aa59c1cd" kindref="member">Cy_SysCM33Reset</ref>(uint32_t<sp/>waitus);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>(CY_SYSTEM_CPU_M0P<sp/>==<sp/>1UL)<sp/>||<sp/>defined(CY_DOXYGEN)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1gaa9fe7771438fdc28c0a4daaf8c0efd24" kindref="member">cy_CbusRemapAddr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SRAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SRAM_BASE<sp/>+<sp/>CY_SRAM_SIZE)))</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SRAM_BASE;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SRAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>SOCMEM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SOCMEM_RAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SOCMEM_RAM_BASE<sp/>+<sp/>CY_SOCMEM_RAM_SIZE)))</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SOCMEM_RAM_BASE;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SOCMEM_RAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>XIP<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_XIP_PORT0_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_XIP_PORT1_BASE<sp/>+<sp/>CY_XIP_PORT1_SIZE)))</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_XIP_PORT0_BASE;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/><sp/>CY_XIP_PORT0_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
-<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" kindref="member">cy_AhbRemapAddr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
-<codeline lineno="230"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SRAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SRAM_CBUS_BASE<sp/>+<sp/>CY_SRAM_SIZE)))</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SRAM_CBUS_BASE;</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SRAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SOCMEM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SOCMEM_RAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SOCMEM_RAM_CBUS_BASE<sp/>+<sp/>CY_SOCMEM_RAM_SIZE)))</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SOCMEM_RAM_CBUS_BASE;</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SOCMEM_RAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>XIP<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_XIP_PORT0_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_XIP_PORT1_CBUS_BASE<sp/>+<sp/>CY_XIP_PORT1_SIZE)))</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_XIP_PORT0_CBUS_BASE;</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/><sp/>CY_XIP_PORT0_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>RRAM<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_RRAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_RRAM_BASE<sp/>+<sp/>CY_RRAM_SIZE)))</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_RRAM_BASE;</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_RRAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"><sp/><sp/>}</highlight><highlight class="comment">/*<sp/>no<sp/>remapping,<sp/>addr<sp/>not<sp/>in<sp/>range<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="261"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="262"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>RRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_RRAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_RRAM_CBUS_BASE<sp/>+<sp/>CY_RRAM_SIZE)))</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_RRAM_CBUS_BASE;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_RRAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/>}</highlight><highlight class="comment">/*<sp/>no<sp/>remapping,<sp/>addr<sp/>not<sp/>in<sp/>range<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="group__group__system__config__cm33__functions__edge_1ga6004d48d31cfd458ce78d807803c2f5a" kindref="member">cy_AhbRemapAddr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SRAM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SRAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SRAM_CBUS_BASE<sp/>+<sp/>CY_SRAM_SIZE)))</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SRAM_CBUS_BASE;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SRAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>SOCMEM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_SOCMEM_RAM_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_SOCMEM_RAM_CBUS_BASE<sp/>+<sp/>CY_SOCMEM_RAM_SIZE)))</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_SOCMEM_RAM_CBUS_BASE;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_SOCMEM_RAM_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>XIP<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_XIP_PORT0_CBUS_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_XIP_PORT1_CBUS_BASE<sp/>+<sp/>CY_XIP_PORT1_SIZE)))</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_XIP_PORT0_CBUS_BASE;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/><sp/>CY_XIP_PORT0_BASE<sp/>+<sp/>offset;</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
-<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="280"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_CM55_DTCM_REMAP_BASE<sp/>0x48040000UL</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="282"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/>cy_DTCMRemapAddr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
-<codeline lineno="283"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
-<codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/><sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="287"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_CM55_DTCM_INTERNAL_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_CM55_DTCM_INTERNAL_BASE<sp/>+<sp/>CY_CM55_DTCM_INTERNAL_SIZE)))</highlight></codeline>
-<codeline lineno="289"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_CM55_DTCM_INTERNAL_BASE;</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_CM55_DTCM_REMAP_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="294"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
-<codeline lineno="298"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/>cy_DTCMInternalRemapAddr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
-<codeline lineno="311"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/><sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_CM55_DTCM_REMAP_BASE)<sp/>&amp;&amp;</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_CM55_DTCM_REMAP_BASE<sp/>+<sp/>CY_CM55_DTCM_INTERNAL_SIZE)))</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_CM55_DTCM_REMAP_BASE;</highlight></codeline>
-<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_CM55_DTCM_INTERNAL_BASE<sp/>+<sp/>offset;</highlight></codeline>
-<codeline lineno="320"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>Internal<sp/>DTCM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="322"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
-<codeline lineno="326"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="327"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="328"><highlight class="normal"></highlight></codeline>
-<codeline lineno="339"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM33_0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="340"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_CBUS_TO_SAHB(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_AhbRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="341"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="342"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_CBUS_TO_SAHB(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_DTCMRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="343"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM33_0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="356"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_SAHB_TO_CBUS(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_CbusRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_SAHB_TO_CBUS(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_DTCMInternalRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="363"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="364"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="366"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SYSTEM_EDGE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="369"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>[]<sp/>END<sp/>OF<sp/>FILE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>RRAM<sp/>is<sp/>mapped<sp/>with<sp/>offset<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_RRAM_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_RRAM_BASE<sp/>+<sp/>CY_RRAM_SIZE)))</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_RRAM_BASE;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_RRAM_CBUS_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>}</highlight><highlight class="comment">/*<sp/>no<sp/>remapping,<sp/>addr<sp/>not<sp/>in<sp/>range<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_CM55_DTCM_REMAP_BASE<sp/>0x48040000UL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/>cy_DTCMRemapAddr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/><sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_CM55_DTCM_INTERNAL_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_CM55_DTCM_INTERNAL_BASE<sp/>+<sp/>CY_CM55_DTCM_INTERNAL_SIZE)))</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_CM55_DTCM_INTERNAL_BASE;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_CM55_DTCM_REMAP_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint32_t<sp/>cy_DTCMInternalRemapAddr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*addr)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/>uint32_t<sp/>remapAddr,<sp/>offset;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*<sp/>DTCM<sp/><sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((uint32_t)addr<sp/>&gt;=<sp/>CY_CM55_DTCM_REMAP_BASE)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>((uint32_t)addr<sp/>&lt;<sp/>(CY_CM55_DTCM_REMAP_BASE<sp/>+<sp/>CY_CM55_DTCM_INTERNAL_SIZE)))</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>offset<sp/>=<sp/>(uint32_t)addr<sp/>-<sp/>CY_CM55_DTCM_REMAP_BASE;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>CY_CM55_DTCM_INTERNAL_BASE<sp/>+<sp/>offset;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>Internal<sp/>DTCM<sp/>Address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>remapAddr<sp/>=<sp/>(uint32_t)addr;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>remapAddr;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM33_0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_CBUS_TO_SAHB(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_AhbRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_CBUS_TO_SAHB(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_DTCMRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(CORE_NAME_CM33_0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_SAHB_TO_CBUS(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_CbusRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(CORE_NAME_CM55_0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CY_REMAP_ADDRESS_SAHB_TO_CBUS(addr)<sp/><sp/><sp/><sp/>((void<sp/>*)cy_DTCMInternalRemapAddr(addr))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_SYSTEM_EDGE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>[]<sp/>END<sp/>OF<sp/>FILE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="output/bsps/TARGET_KIT_PSE84_EVAL_EPC2/system_edge.h"/>
   </compounddef>

@@ -9,7 +9,7 @@
 <para>PSE84 device GPIO header for BGA-220 package. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="copyright"><para>(c) (2016-2025), Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.</para>
+<para><simplesect kind="copyright"><para>(c) (2016-2026), Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation.</para>
 </simplesect>
 SPDX-License-Identifier: Apache-2.0</para>
 <para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0

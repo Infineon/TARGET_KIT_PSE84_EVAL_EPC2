@@ -16,6 +16,8 @@ The KIT_PSE84_EVAL_EPC2 library includes the following:
 * API documentation
 
 ### What Changed?
+#### v1.3.0
+* Updated BSP for Modustoolbox 3.7
 #### v1.2.0
 * Documentation improvements
 #### v1.1.0

@@ -3,7 +3,7 @@
 *
 ********************************************************************************
 * \copyright
-* (c) (2016-2025), Cypress Semiconductor Corporation (an Infineon company) or
+* (c) (2016-2026), Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.
 *
 * SPDX-License-Identifier: Apache-2.0
